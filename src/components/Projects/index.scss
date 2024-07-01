@@ -1,0 +1,97 @@
+
+.flat-button {
+    color: #ffd700;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    font-family: sans-serif;
+    text-decoration: none;
+    padding: 10px 18px;
+    border: 1px solid #ffd700;
+    margin-top: 25px;
+    float: left;
+    animation: fadeInAnimation 1s 1.8s backwards;
+    white-space: nowrap;
+    overflow: auto;
+    margin-left: 70px;
+    animation: fadeIn 1s 1.8s backwards;
+    
+
+    &:hover {
+      background: #ffd700;
+      color: #333;
+      
+    }
+    
+  }
+ .project-title{
+  color: #fbfbfb;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 4px;
+  font-family: sans-serif;
+  text-decoration: none;
+  padding: 10px 18px;
+
+  
+ }
+
+// .flat-button {
+//   color: #ffd700;
+//   font-size: 13px;
+//   font-weight: 400;
+//   letter-spacing: 4px;
+//   font-family: sans-serif;
+//   text-decoration: none;
+//   padding: 10px 18px;
+//   border: 1px solid #ffd700;
+//   margin-top: 25px;
+//   float: left;
+//   animation: fadeInAnimation 1s 1.8s backwards;
+//   white-space: nowrap;
+//   animation: fadeIn 1s 1.8s backwards;
+//   margin-left: 70px;
+
+//   &:hover {
+//     background: #ffd700;
+//     color: #333;
+//   }
+// }
+
+// .apex {
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center; /* Center items horizontally */
+//   justify-content: center; /* Center items vertically */
+//   min-height: 50vh; /* Ensure container takes up at least the full viewport height */
+// }
+
+// .flat-button {
+//   margin-bottom: 10px; /* Add space between each project */
+//   text-align: center; /* Center text within each project */
+
+// }
+
+// .flat-button h2 {
+//   font-size: 18px;
+//   margin-bottom: 5px;
+// }
+
+// .flat-button a {
+//   text-decoration: none;
+//   color: #333; /* Change color as needed */
+// }
+
+// .flat-button button {
+//   background-color: #007bff; /* Adjust button background color */
+//   color: #fff; /* Adjust button text color */
+//   border: none;
+//   padding: 8px 16px;
+//   border-radius: 4px;
+//   cursor: pointer;
+// }
+
+// .flat-button button:hover {
+//   background-color: #0056b3; /* Adjust button hover color */
+// }
+

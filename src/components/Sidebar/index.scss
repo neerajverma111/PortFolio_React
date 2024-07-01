@@ -80,9 +80,19 @@
         content: 'ABOUT';
       }
     }
+    a.projects-link {
+      &:after {
+        content: 'PROJECTS';
+      }
+    }
     a.contact-link {
       &:after {
         content: 'CONTACT';
+      }
+    }
+    a.skills-link {
+      &:after {
+        content: 'SKILLS';
       }
     }
     a.active {

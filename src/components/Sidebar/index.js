@@ -10,6 +10,11 @@ import {
   faSuitcase,
   faBars,
   faClose,
+  faHardDrive,
+  faPallet,
+  faLaptop,
+  faLaptopFile,
+  faCircleDollarToSlot,
 } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 
@@ -40,6 +45,22 @@ const Sidebar = () => {
         >
           <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
         </NavLink>
+        <NavLink
+          exact="true"
+          activeclassname="active"
+          className="projects-link"
+          to="/projects"
+        >
+          <FontAwesomeIcon icon={faLaptopFile} color="#4d4d4e" />
+        </NavLink>
+        <NavLink
+          exact="true"
+          activeclassname="active"
+          className="skills-link"
+          to="/skills"
+        >
+          <FontAwesomeIcon icon={faCircleDollarToSlot} color="#4d4d4e" />
+        </NavLink>
       </nav>
       <ul>
         <li>
@@ -60,6 +81,7 @@ const Sidebar = () => {
             <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
           </a>
         </li>
+        
       </ul>
     </div>
   )
